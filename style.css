@@ -786,6 +786,16 @@ section{
     transition: .3s;
 }
 
+
+.contact {
+  background-color: #f2f7fc; /* Match the rest of the site */
+  padding: 60px 0;
+}
+
+
+
+
+
 .contact-info form .input-box{
     display: flex;
     justify-content: space-between;
