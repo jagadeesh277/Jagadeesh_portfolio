@@ -293,7 +293,7 @@ animation-delay: 3s, 1s;
 
 .img-hero img{
     position: relative;
-    width: 300px;
+    width: 350px;
     height: auto;
     z-index: 10;
 }
