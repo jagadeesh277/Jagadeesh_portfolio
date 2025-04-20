@@ -1206,6 +1206,11 @@ footer{
     }
 }
 
+@media (max-width: 768px) {
+    .proposal {
+        display: none;
+    }
+}
 
 
 
