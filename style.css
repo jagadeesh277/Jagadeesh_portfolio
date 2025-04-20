@@ -1225,6 +1225,11 @@ footer{
         margin-top: 20px;
     }
 }
+.proposal {
+    z-index: 1;
+    position: relative;
+}
+
 
 
 
