@@ -1114,10 +1114,7 @@ footer{
     }
 }
 
-@media(max-width:768px){
-    .proposal{
-        display: none;
-    }
+
     .menu-icon .bar,.menu-icon::after,.menu-icon::before{
         display: block;
     }
@@ -1204,30 +1201,6 @@ footer{
         width: 100%;
         padding: 13px;
     }
-}
-
-/* Add this to your style.css */
-@media (max-width: 768px) {
-    .proposal {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .proposal .text-box h3 {
-        font-size: 20px;
-        line-height: 1.4;
-    }
-
-    .proposal img.first {
-        width: 80%;
-        margin-top: 20px;
-    }
-}
-.proposal {
-    z-index: 1;
-    position: relative;
 }
 
 
