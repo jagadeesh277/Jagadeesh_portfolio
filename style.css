@@ -1203,6 +1203,59 @@ footer{
     }
 }
 
+.contact {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.contact-form .btn {
+    margin-top: 20px;
+    background: #0077ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background: #005ecc;
+}
+
+@media (min-width: 600px) {
+    .contact-form .input-box {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .contact-form input {
+        width: 48%;
+    }
+}
 
 
 
